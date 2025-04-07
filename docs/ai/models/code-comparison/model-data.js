@@ -23,10 +23,9 @@ const categoryLabels = {
   'test-creation': 'Test Creation & Testing',
   'debugging': 'Debugging & Problem Solving',
   'refactoring': 'Code Refactoring & Optimization',
-  'sql-generation': 'SQL Generation (Spider Benchmark)',
-  'practical-implementation': 'Practical Implementation (LiveCodeBench)',
   'documentation': 'Documentation Generation',
   'architecture': 'System Architecture & Planning',
+  'practical-implementation': 'Practical Implementation (LiveCodeBench)',
 };
 
 const categoryExplanations = {
@@ -35,8 +34,7 @@ const categoryExplanations = {
   'test-creation': 'Creating unit tests, integration tests, and test suites for code. Evaluates the model\'s ability to understand code functionality and create tests with good coverage.',
   'debugging': 'Finding and fixing errors in code. Tests the model\'s ability to understand existing code and identify problems.',
   'refactoring': 'Restructuring code without changing behavior, to improve readability, performance, or maintainability.',
-  'sql-generation': 'Creating SQL queries from natural language descriptions. Often measured by the Spider benchmark.',
-  'practical-implementation': 'Performance on real-world coding challenges like LiveCodeBench that simulate practical development tasks and holistic coding ability.',
   'documentation': 'Creating clear documentation for code. Tests the model\'s ability to explain code functionality.',
   'architecture': 'Designing high-level system architecture and planning complex implementations across multiple files.',
+  'practical-implementation': 'Performance on real-world coding challenges like LiveCodeBench that simulate practical development tasks and holistic coding ability.',
 };
